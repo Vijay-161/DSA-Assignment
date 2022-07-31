@@ -1,0 +1,10 @@
+
+From: 0 To: 1  Distance: 90 Km   Info: added
+From: 0 To: 1  Distance: 40 Km   Info: house1
+From: 0 To: 2  Distance: 30 Km   Info: 2added
+From: 2 To: 1  Distance: 2 Km   Info: eto1
+From: 0 To: 1  Distance: 5 Km   Info: hhfh
+From: 0 To: 2  Distance: 20 Km   Info: adfh
+From: 1 To: 2  Distance: 3 Km   Info: dd
+From: 1 To: 2  Distance: 2 Km   Info: 2
+From: 0 To: 2  Distance: 22 Km   Info: ddjhf
