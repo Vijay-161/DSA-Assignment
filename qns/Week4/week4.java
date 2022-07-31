@@ -1,6 +1,12 @@
-package ProjectWork;
+// In a certain city there are x number of villages represented in an array where a[i] 
+// represents their grade. Each village is assigned grades based on their population count. 
+// you are assigned task to distribute
+// wheat container to each village. Write an algorithm to return the minimum number of 
+// containers required to distribute wheat to each village such that each village must 
+// get at least one container and villages with higher grade must receive more container;
 
-public class Week4 {
+package Week4;
+public class week4 {
     // function to sort an array
     private static void sortArray(int array[]) {
         // looping through the elements of the array provided in the parameter
@@ -14,7 +20,7 @@ public class Week4 {
                 j--; // decrement j
             }
             array[j] = a; // assigning the current element to the index where the previous element was
-            // swapped
+                          // swapped
         }
     }
 
@@ -47,7 +53,7 @@ public class Week4 {
 
     public static void main(String[] args) {
         // initializing an array
-        int array[] = { 5, 2, 6 };
+        int array[] = { 5, 2, 2, 2, 4, 6 };
 
         // calling the function to find total number of containers
         findTotalContainers(array);

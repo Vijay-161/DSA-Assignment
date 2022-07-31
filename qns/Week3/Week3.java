@@ -1,5 +1,13 @@
+// Week3
+// you are provided coordinates of houses in 2D map and write an algorithm that will print
+// optimal path to construct a road connecting all houses with minimum cost. cost between 
+// two coordinates is the Manhattan distance between them.
+// Input: [{0,0}, {2,2}, {3,10}, {4,4}, {5,2}, {7,0}
+
 package Week3;
 
+
+ // Java program for the above approach
 import java.util.*;
 
 // Class for DSU implementation

@@ -1,6 +1,12 @@
-package ProjectWork;
+// you are provided with an array A [] containing set of different words in the form of string 
+// and you are provided with targeted word, 
+// return length of subset s from set A required to from targeted word by using 
+// combination of different letters of subset s.
 
-public class Week5 {
+
+package Week5;
+public class week5 {
+    // funtion to 
     public static void checkSubset(String target, String[] set) {
         String visited = "";
 
@@ -13,9 +19,6 @@ public class Week5 {
                             && !visited.contains(target.charAt(i) + "")) {
                         visited += target.charAt(i);
 
-                        // System.out.println(target.charAt(i));
-                        // System.out.println(set[j]);
-
                         if (ans <= j + 1) {
                             ans++;
                         }
@@ -23,11 +26,6 @@ public class Week5 {
                 }
             }
         }
-        System.out.println("-----");
-
-        // for (int i = 0; i < subset.length; i++) {
-        // System.out.println(subset[i]);
-        // }
         System.out.println(ans);
     }
 

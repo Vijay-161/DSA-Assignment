@@ -8,3 +8,6 @@ From: 0 To: 2  Distance: 20 Km   Info: adfh
 From: 1 To: 2  Distance: 3 Km   Info: dd
 From: 1 To: 2  Distance: 2 Km   Info: 2
 From: 0 To: 2  Distance: 22 Km   Info: ddjhf
+From: 0 To: 1  Distance: 33 Km   Info: df
+From: 1 To: 2  Distance: 3 Km   Info: fff
+From: 0 To: 2  Distance: 44 Km   Info: dd
